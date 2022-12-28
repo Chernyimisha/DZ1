@@ -5,5 +5,5 @@
 Console.WriteLine("Введите целое число");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if (number % 2 == 0) Console.WriteLine($"Введенноe число {number} четное");
-else Console.WriteLine($"Введенноe число {number} нечетное");
+if (number % 2 == 0) Console.WriteLine($"Введенноe число {number} является четным");
+else Console.WriteLine($"Введенноe число {number} не является четным");
